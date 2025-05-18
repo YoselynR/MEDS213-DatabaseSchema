@@ -20,6 +20,11 @@ This repository supports a data exploration project analyzing industrial energy 
 │   ├── arc.csv
 │   ├── assess.csv
 │   └── emissions.csv
+├── figures
+│   ├── impcost_vs_payback.png
+│   ├── impcost_by_year_arc.png
+│   ├── arc_category_frequency.png
+│   └── emissions_vs_impcost.png
 ├── .gitignore
 ├── ReadMe.md
 ├── LICENSE
@@ -53,11 +58,15 @@ Python and Matplotlib are used to generate visualizations
 - **Color-coded scatterplot**: Emissions avoided vs implementation cost by arc group.
 - **Arc frequency bar plot**: Reduced `arc2` codes (2 digits) with labels.
 
+---
+
 ## Data Access
 
 Raw data lives in data/iac_integrated_data.csv.
 Processed tables are exported to exports/*.csv using DuckDB.
-The raw dataset was originally sourced from the Industrial Energy Efficiency Data Explorer  but is too large to upload to GitHub.
+The raw dataset was originally sourced from the Industrial Energy Efficiency Data Explorer [Temporary Link to Data](http://128.111.110.37:3009/dashboard) will be accesible soon. There is no current source I can add for the full file. 
+
+---
 
 ## Acknowledgements
 
@@ -72,6 +81,8 @@ Oksana Protsuhka
 Naomi Moraes
 Yos Ramirez
 Eric Masanet
+
+---
 
 ## Author
 
