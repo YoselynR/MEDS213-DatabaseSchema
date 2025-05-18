@@ -64,7 +64,7 @@ Python and Matplotlib are used to generate visualizations
 
 Raw data lives in data/iac_integrated_data.csv. (Not on GitHub)
 Processed tables are exported to exports/*.csv using DuckDB and can be downloaded.
-The raw dataset was originally sourced from the Industrial Energy Efficiency Data Explorer [Temporary Link to Data Explorer](http://128.111.110.37:3009/dashboard) the full dataset will be accesible soon on the site soon. The dataset for this project is stored in the Capstone Project Industrial Energy Drive. 
+The raw dataset was originally sourced from the Industrial Energy Efficiency Data Explorer [Temporary Link to Data Explorer](http://128.111.110.37:3009/dashboard) the full dataset will be accesible soon. The dataset for this project is stored in the Capstone Project Industrial Energy Drive. 
 
 ---
 
