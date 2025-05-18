@@ -70,9 +70,9 @@ The raw dataset was originally sourced from the Industrial Energy Efficiency Dat
 
 ## Acknowledgements
 
-The data used in this project was provided by the Industrial Energy Efficiency Data Explorer:
+The data used in this project was provided by the [https://bren.ucsb.edu/projects/industrial-energy-data-exploration-interface](Industrial Energy Data Exploration Interface):
 
-"A Data-Driven Support Tool for Industrial Energy Modelers."
+"A Data-Driven Support Tool for Industrial Energy Modelers." 
 
 **A product by:**
 
