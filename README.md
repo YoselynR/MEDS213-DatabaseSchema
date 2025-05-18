@@ -14,7 +14,7 @@ This repository supports a data exploration project analyzing industrial energy 
 
 ## Repository Structure
 
-
+```
 ├── data (excluded on GitHub)
 ├── exports
 │   ├── arc.csv
@@ -25,6 +25,7 @@ This repository supports a data exploration project analyzing industrial energy 
 ├── LICENSE
 ├── Capstone.py
 └── Capstone.sql
+```
 
 
 - SQL code is used to clean and normalize the raw dataset into three main tables: `assess`, `arc`, and `emissions`.
