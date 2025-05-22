@@ -10,7 +10,7 @@ os.makedirs('figures', exist_ok=True)
 # Load assess data
 assess_df = pd.read_csv("exports/assess.csv")
 
-# Plot: Implementation Cost vs Payback Period
+# Scatter Plot of Implementation Cost vs Payback Period
 plt.figure(figsize=(8, 6))
 plt.scatter(assess_df['impcost'], assess_df['payback'])
 plt.title('Implementation Cost vs Payback Period')
@@ -20,7 +20,7 @@ plt.tight_layout()
 plt.savefig('figures/impcost_vs_payback.png')
 plt.show()
 
-# Plot: Implementation Cost vs Fiscal Year with ARC categories
+# Scatter Plot of Implementation Cost vs Fiscal Year with ARC categories
 plt.figure(figsize=(10, 6))
 scatter = plt.scatter(
     assess_df['impcost'], assess_df['fy'],
@@ -71,7 +71,7 @@ merged_df = pd.merge(emissions_df, assess_df, on='superid')
 # Drop missing values
 merged_df = merged_df[['emissions_avoided', 'impcost']].dropna()
 
-# Plot: Emissions Avoided vs Implementation Cost
+# Scatter plot of Emissions Avoided vs Implementation Cost
 plt.figure(figsize=(10, 6))
 plt.scatter(
     merged_df['impcost'], merged_df['emissions_avoided'],
